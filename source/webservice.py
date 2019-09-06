@@ -39,7 +39,4 @@ class Handler:
 
 if __name__ == '__main__':
     handler = Handler()
-# TESTE
-# for x in str(system('curl localhost:7979/romano/99')):
-#   print(x[:-1])
 
