@@ -23,10 +23,13 @@ class ValidaCPF:
                     return True
                 else:
                     print("O CPF {} não  é válido.".format(self.num_cpf))
+                    return False
             else:
                 print("O CPF {} não é válido".format(self.num_cpf))
+                return False
         else:
             print("O CPF {} não é válido.".format(self.num_cpf))
+            return False
 
     def retira_formatacao(self):
         cpf = sub('\D', '', self.num_cpf)
