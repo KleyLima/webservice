@@ -58,6 +58,6 @@ if __name__ == '__main__':
     print(Roman(argv[1]).numero_para_romano())     # alternativa para execução pelo terminal, remover "source." do import
 else:
     #from source.ref import Ref
-    from roman_converter.source.ref import Ref
+    from handler.ref import Ref
     from os import getcwd
     print(getcwd())
