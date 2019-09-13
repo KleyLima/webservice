@@ -19,4 +19,6 @@ Os endpoints desenvolvidos são:
   - gerador de senhas + classificador de senhas + hash no endpoint ./gera_senha/
       onde a resposta deve ser a senha gerada, sua classificação e o hash calculado
 
+DESAFIO: GERAÇÃO DE PÁGINA (HTML) RESPOSTA
 
+formatar página html de resposta dos serviços expostos via webservice diferenciando as respostas com fontes, formatações e fontes variadas.
