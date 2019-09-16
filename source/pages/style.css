@@ -1,0 +1,41 @@
+body {
+	background: url(matrix.gif);
+	background-size: cover;
+	width: 90%;
+	margin: auto;
+	line-height: 1.5;
+	text-align: center;
+}
+
+p, h1, h2 {
+	display: inline-block;
+	color: #fff;
+}
+
+h1 {
+	background: #008bff;
+}
+
+p {
+	background: #fff;	
+}
+
+h2 {
+	background: #8600f7;
+}
+
+
+.funct{
+	display: inline-block;
+	color: #00ffbf;
+	border-radius: 12px;
+	background: #a4202085;
+	text-align: center;
+  	text-decoration: none;
+	padding: 15px 32px;
+	font-size: 130%
+	padding-top: 15px;
+	margin: 30px 4px;
+}
+
+
